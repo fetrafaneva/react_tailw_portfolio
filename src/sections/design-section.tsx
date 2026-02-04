@@ -1,6 +1,6 @@
 import Section from "../components/section";
 
-export default function ProjectsSection() {
+export default function DesignsSection() {
   const projects = [
     {
       title: "Full Stack AIResume app",
@@ -15,7 +15,7 @@ export default function ProjectsSection() {
   ];
 
   return (
-    <Section title="Projects">
+    <Section title="Designs">
       <div className="flex flex-wrap justify-center items-center gap-4 mr-auto">
         {projects.map((project) => (
           <div
