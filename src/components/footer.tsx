@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="px-6 md:px-16 lg:px-24 xl:px-32 w-full section bg-primary">
+    <footer className=" lg:mt-20 sm:mt-20 px-6 md:px-16 lg:px-24 xl:px-32 w-full">
       <div className="flex flex-col md:flex-row items-start justify-center gap-10 py-10 border-b border-gray-500/30">
         <div className="max-w-96">
           <svg
@@ -23,8 +23,8 @@ export default function Footer() {
             />
           </svg>
           <p className="mt-6 text-sm text-gray-500">
-            Let’s collaborate together to turn ideas into reality by combining
-            creativity, skills, and passion to build impactful digital projects.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been.
           </p>
           <div className="flex items-center gap-2 mt-3">
             <a href="#">
@@ -44,7 +44,7 @@ export default function Footer() {
                 />
               </svg>
             </a>
-            <a href="https://www.github.com/fetrafaneva">
+            <a href="#">
               <svg
                 width="20"
                 height="20"
@@ -83,45 +83,41 @@ export default function Footer() {
 
         <div className="w-1/2 flex flex-wrap md:flex-nowrap justify-between">
           <div>
-            <h2 className="font-semibold text-white-900 mb-5">RESOURCES</h2>
+            <h2 className="font-semibold text-gray-900 mb-5">RESOURCES</h2>
             <ul className="text-sm text-gray-500 space-y-2 list-none">
               <li>
-                <a href="#home">Home</a>
+                <a href="#">Home</a>
               </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#development">Development</a>
-              </li>
-              <li>
-                <a href="#design">Design</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 className="font-semibold text-white-900 mb-5">COMPANY</h2>
-            <div className="text-sm text-gray-500 space-y-2 list-none">
               <li>
                 <a href="#">About</a>
               </li>
               <li>
-                <a href="#">Careers</a>
+                <a href="#">Projects</a>
               </li>
               <li>
-                <a href="#">Privacy</a>
+                <a href="#">Designs</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="font-semibold text-white mb-5">.</h2>
+            <div className="text-sm text-gray-500 space-y-2 list-none">
+              <li>
+                <a href="#">Experience</a>
               </li>
               <li>
-                <a href="#">Terms</a>
+                <a href="#">Skills</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
               </li>
             </div>
           </div>
         </div>
       </div>
       <p className="py-4 text-center text-xs md:text-sm text-gray-500">
-        Copyright 2026 ©{" "}
-        <a href="https://github.com/fetrafaneva">fetrafaneva</a>. All Right
-        Reserved.
+        Copyright 2024 © <a href="https://prebuiltui.com">PrebuiltUI</a>. All
+        Right Reserved.
       </p>
     </footer>
   );
