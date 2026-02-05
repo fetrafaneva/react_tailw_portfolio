@@ -3,7 +3,7 @@ import Section from "../components/section";
 export default function AboutSection() {
   return (
     <Section title="About">
-      <div className="text-sm/6.5">
+      <div id="about" className="text-sm/6.5">
         <p>
           I’m Faneva, a Full-Stack MERN developer and a UI/UX Designer based in
           FIANARANTSOA. I design and build whatever I can imagine. My main tech

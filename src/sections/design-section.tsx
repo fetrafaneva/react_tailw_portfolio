@@ -16,7 +16,10 @@ export default function DesignsSection() {
 
   return (
     <Section title="Designs">
-      <div className="flex flex-wrap justify-center items-center gap-4 mr-auto">
+      <div
+        id="designs"
+        className="flex flex-wrap justify-center items-center gap-4 mr-auto"
+      >
         {projects.map((project) => (
           <div
             key={project.title}

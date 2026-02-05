@@ -3,7 +3,7 @@ import Section from "../components/section";
 export default function ContactSection() {
   return (
     <Section title="Contact">
-      <table className="table-auto mr-auto">
+      <table id="contact" className="table-auto mr-auto">
         <tbody>
           <tr>
             <td className="pr-4 py-2">Email:</td>
