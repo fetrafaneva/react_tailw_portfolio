@@ -16,7 +16,7 @@ export default function SkillsSection() {
 
   return (
     <Section title="Skills">
-      <div className="flex flex-wrap gap-4">
+      <div id="skill" className="flex flex-wrap gap-4">
         {skills.map((skill) => (
           <p
             key={skill}
