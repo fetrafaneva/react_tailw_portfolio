@@ -71,13 +71,13 @@ export default function Footer() {
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#">Projects</a>
+                <a href="#projects">Projects</a>
               </li>
               <li>
-                <a href="#">Designs</a>
+                <a href="#designs">Designs</a>
               </li>
             </ul>
           </div>
@@ -85,20 +85,23 @@ export default function Footer() {
             <h2 className="font-semibold text-white mb-5">.</h2>
             <div className="text-sm text-gray-500 space-y-2 list-none">
               <li>
-                <a href="#">Experience</a>
+                <a href="#experience">Experience</a>
               </li>
               <li>
-                <a href="#">Skills</a>
+                <a href="#education">Education</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#skill">Skills</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
               </li>
             </div>
           </div>
         </div>
       </div>
       <p className="py-4 text-center text-xs md:text-sm text-gray-500">
-        Copyright 2024 © <a href="https://prebuiltui.com">PrebuiltUI</a>. All
+        Copyright 2026 © <a href="https://prebuiltui.com">Fetra Faneva</a>. All
         Right Reserved.
       </p>
     </footer>
