@@ -116,10 +116,14 @@ export default function HeroSection() {
         MERN developer & Designer
       </p>
       <div className="mt-6">
-        <button className="group bg-indigo-600 hover:bg-indigo-700 text-white px-7 py-2.5 rounded-lg">
+        <a
+          href="/assets/cv.pdf"
+          download="Fetra_Faneva_CV.pdf"
+          className="group bg-indigo-600 hover:bg-indigo-700 text-white px-7 py-2.5 rounded-lg inline-flex items-center"
+        >
           Resume
-          <ArrowRightIcon className="group-hover:translate-x-0.5 transition ml-1 size-5 inline-flex" />
-        </button>
+          <ArrowRightIcon className="group-hover:translate-x-0.5 transition ml-1 size-5" />
+        </a>
         <button className="border border-gray-400 hover:bg-gray-100/70 px-6 py-2.5 rounded-lg ml-4">
           Contact me
         </button>

@@ -3,27 +3,27 @@ import Section from "../components/section";
 export default function ExperienceSection() {
   const experience = [
     {
-      image: "/assets/google.svg",
-      title: "Sr. Software engineer",
-      company: "Google",
-      location: "New York",
-      start: "Jan 2024",
-      end: "Present",
+      image: "/assets/men.png",
+      title: "Développeur stagiaire",
+      company: "Ministère de l'Éducation Nationale (MEN)",
+      location: "Madagascar",
+      start: "Sep 2024",
+      end: "Déc 2024",
       description: [
-        "Lead end-to-end development of large-scale, high-performance systems used by millions of users.",
-        "Mentor junior engineers, conduct code reviews, and uphold engineering best practices.",
+        "Conception d'une application pour la gestion de suivi pédagogique.",
+        "Outils utilisés : Flutter, Sqflite.",
       ],
     },
     {
-      image: "/assets/microsoft.svg",
-      title: "Full Stack developer",
-      company: "Microsoft",
-      location: "London",
-      start: "May 2021",
-      end: "Dec 2024",
+      image: "/assets/mef.png",
+      title: "Développeur stagiaire",
+      company: "Ministère de l'Économie et des Finances (MEF)",
+      location: "Madagascar",
+      start: "Aoû 2023",
+      end: "Nov 2023",
       description: [
-        "Full-stack development of large-scale, high-performance systems used by millions of users.",
-        "Mentor junior engineers, conduct code reviews, and uphold engineering best practices.",
+        "Conception et développement d'une application de gestion de projet selon la méthodologie Agile Scrum.",
+        "Outils utilisés : PHP, Java, JavaScript, Gherkin.",
       ],
     },
   ];
